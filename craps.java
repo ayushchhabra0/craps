@@ -8,7 +8,7 @@ public class craps {
         System.out.println("Do you want to play the game of Craps? (y/n): ");
         Scanner input = new Scanner(System.in);
         String response1 = input.next();
-        if (response1 != "y") {
+        if (response1 == "n") {
             System.out.println("Thank you. Have a nice day!");
         }
         input.close();
